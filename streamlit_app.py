@@ -27,7 +27,7 @@ except Exception:
 # ==========================================================
 # CONFIG
 # ==========================================================
-MASTER_CSV = r"C:\Users\KARTHIKKPMSHoldings\OneDrive - MS Chartered Accountants\Desktop\PROJECTS\IPO MARKET\IPO_Master.csv"
+MASTER_CSV = r"IPO_Master.csv"
 if not os.path.exists(MASTER_CSV):
     _local = os.path.join(os.path.dirname(os.path.abspath(__file__)), "IPO_Master.csv")
     if os.path.exists(_local):
